@@ -50,13 +50,14 @@
 
 
 /*-------------Second Way By Pawan---------*/
+/*--it will validate for only single class--*/
 
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
 	version="2.1">
 	<persistence-unit
 		name="Enter Unit Name for access database ">
-		<class>model.dao.User</class>
+		<class>Enter class name-> package_name.classname without java extension</class>
 		<properties>
 			<property name="javax.persistence.jdbc.url"
 				value="jdbc:postgresql://localhost:5432/Database_name" />
